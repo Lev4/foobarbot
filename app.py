@@ -1,6 +1,6 @@
 from aiogram import Bot, Dispatcher, types
 from aiogram import executor
-from localconf import bot_token
+from localconfig import bot_token
 
 bot = Bot(token=bot_token)
 
